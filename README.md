@@ -1,16 +1,16 @@
 ![Prosperidade](https://github.com/user-attachments/assets/7d0d9418-b266-46da-9e3f-e13c6c6788c2)
-# Simulador de investimento em FIIs curso Excel Santander DIO
+# Simulador de investimento em FIIs / curso Santander - Excel com Inteligência Artificial
 ## Etapas da criação:
 1. Essa é uma das atividade do Curso "Santander - Excel com Inteligência Artificial", ofertado pela Santander Open Academy (https://www.santanderopenacademy.com/pt_br/index.html) e disponibilizado na plataforma da DIO (https://dio.me/).
 2. A pasta de trabalho foi criada seguindo as orientações do professor Felipe da DIO.
 3. Foi utilizado o software Microsoft Excel.
-4. Foi criada a planilha nomeada "APP", onde o usuário vai inserir os dados e a planilha nomeada "parâmetros", onde estão informações úteis para algumas fómulas e células que contenham a seleção de dados.
+4. São duas planilhas, sendo uma nomeada "APP", onde o usuário vai inserir os dados e a planilha nomeada "parâmetros", onde estão informações úteis para algumas fómulas e células que contenham a seleção de dados.
 5. As células com fórmulas e textos foram bloqueadas para evitar que sejam deletadas acidentalmente.
 6. Algumas células e tabelas de apoio foram nomeadas com textos específicos, como exemplo a célula E14 foi nomeada como "Taxa_rendimento_mensal", usando o conceito da aula de intervalos nomeados.
    
 ## Como usar:
 Abra a pasta de trabalho "Prosperidade" em seu Microsoft Excel. Existem duas abas (planilhas) para você usar, nomeadas como "APP" e "Parâmetros".
-### APP:
+### aba APP:
 #### Informações básicas:
 ![Captura de tela 2025-06-08 095848](https://github.com/user-attachments/assets/3c0ff326-6ec4-432d-95ea-a852663c568d)
 
@@ -30,7 +30,7 @@ As células pintadas em verde claro são as que permitem edição, onde você va
 5. Dividendos mensais: os fundos imobiliários tem a característica de pagar dividendos, que seria como um aluguel, todo mês. Ele é calculado com base no teu patrimônio acumulado vezes o rendimento da carteira da tabela informações básicas. A fórmula é =Patrimonio*Rendimento_carteira
 #### Projeção - Patrimônio - Dividendo:
 Essa tabela é preenhida automaticamente com os dados que voê digitar na tabela Investimento mensal. É a projeção (estimativa) de quanto seria o patrimônio acumulado em determinados períodos de tempo (1 a 30 anos) e quanto o patrimônio irá gerar de dividendos.
-Fórmula do patrimônio é =VF(Taxa_rendimento_mensal;B19*12;Investimento_mensal*-1)
+Fórmula do patrimônio é "=VF(Taxa_rendimento_mensal;B19*12;Investimento_mensal*-1)"
 Fórmula dos dividendos mensais é =D19*Rendimento_carteira
 
 Importante: os cálculos são uma estimativa, pois as taxas de rendimento dos investimentos podem variar, tanto para mais quanto para menos. Por isso é importe sempre acompanhar e estudar o assunto.
@@ -52,4 +52,7 @@ Importante: os cálculos são uma estimativa, pois as taxas de rendimento dos in
 4. Ao final da aba APP aparece um gráfico par ilustar os valores comprados de cada tipo de FII:
 ![Captura de tela 2025-06-08 120451](https://github.com/user-attachments/assets/7cfff272-d3cd-4eda-b319-15402c464e1e)
 
+### aba Parâmetros:
+1. São duas tabelas nomeadas que servem de apoio à lista de dados do perfil do investidor na aba "APP" e a segunda que é uma tabela para os tipos de FIIs e seus percentuais por tipo de perfil de investidor.
+2. ![Captura de tela 2025-06-08 143356](https://github.com/user-attachments/assets/30189573-4c5f-4879-b2c8-ed53e505a4af)
 
