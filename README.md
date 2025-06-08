@@ -11,6 +11,11 @@
 ## Como usar:
 Abra a pasta de trabalho "Prosperidade" em seu Microsoft Excel. Existem duas abas (planilhas) para você usar, nomeadas como "APP" e "Parâmetros".
 ## Aba (planilha) APP:
+Nesta aba os valores de salário e investimentos serão lançados e ela vai calcular/projetar uma estimativa de qual será o seu patrimônio após determinado tempo. Ela vai calcular também o valor esperado de dividendos mensais, a chamada renda passiva.
+
+Nela também aparecerá uma tabela com os perncetuais de tipo de FII recomendado para cada perfil de investidor.
+
+Ao final há um gráfico para ilustrar os valores a serem investidos por tipo de FII.
 ### Informações básicas:
 ![Captura de tela 2025-06-08 095848](https://github.com/user-attachments/assets/3c0ff326-6ec4-432d-95ea-a852663c568d)
 
